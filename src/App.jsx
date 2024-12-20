@@ -6,7 +6,6 @@ import {HomePage} from './app/homePage';
 import {AboutPage} from './app/about/aboutPage';
 import {NotFoundPage} from './app/notFoundPage';
 import { NavBar } from './app/component/layout/navBar';
-import { NavMochBar } from './app/component/layout/navMochBar';
 import { Footer } from './app/component/layout/footer';
 
 export default function App() {
@@ -15,7 +14,6 @@ export default function App() {
     <>
     <div className="min-h-screen flex flex-col">
     <NavBar/>
-    <NavMochBar/>
     <Routes>
       <Route  path='/' element={<HomePage/>} />
       <Route path='/about' element={<AboutPage/>} />

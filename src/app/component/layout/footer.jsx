@@ -4,7 +4,7 @@ export function Footer() {
     <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
       {/* Section gauche - Copyright */}
       <div className="text-center md:text-left">
-        <p>&copy; 2024 Mon Projet Noël. Tous droits réservés à moi.</p>
+        <p>&copy; 2024 Mon Projet Noël. Tous droits réservés à moi.Créations Magiques. Avec amour, chocolat et un soupçon de folie. 🦄</p>
       </div>
 
       {/* Section droite - Liens sociaux */}
