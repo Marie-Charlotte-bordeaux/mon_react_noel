@@ -12,6 +12,7 @@ export default function App() {
 
   return (
     <>
+    <div className="min-h-screen flex flex-col">
     <NavBar/>
     <Routes>
       <Route  path='/' element={<HomePage/>} />
@@ -19,6 +20,7 @@ export default function App() {
       <Route path='*' element={<NotFoundPage/>} />
     </Routes>
     <Footer/>
+    </div>
     </>
   )
 }
