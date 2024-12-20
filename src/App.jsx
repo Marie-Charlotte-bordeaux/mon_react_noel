@@ -6,6 +6,7 @@ import {HomePage} from './app/homePage';
 import {AboutPage} from './app/about/aboutPage';
 import {NotFoundPage} from './app/notFoundPage';
 import { NavBar } from './app/component/layout/navBar';
+import { Footer } from './app/component/layout/footer';
 
 export default function App() {
 
@@ -17,7 +18,7 @@ export default function App() {
       <Route path='/about' element={<AboutPage/>} />
       <Route path='*' element={<NotFoundPage/>} />
     </Routes>
-    <footer className='w-full h-24 bg-primary dark:text-cyan-700'>Pied</footer>
+    <Footer/>
     </>
   )
 }
