@@ -1,4 +1,4 @@
-import { BrowserRouter as  Routes, Route } from 'react-router';
+import { BrowserRouter as router, Routes, Route } from 'react-router';
 
 import './App.css'
 import './index.css'
@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <>
-    <NavBar></NavBar>
+    <NavBar/>
     <Routes>
       <Route  path='/' element={<HomePage/>} />
       <Route path='/about' element={<AboutPage/>} />
